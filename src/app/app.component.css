@@ -1,0 +1,15 @@
+.global-container {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "content";
+  height: 100vh;
+}
+
+app-nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: content;
+}
